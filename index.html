@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta char sert="UTL-8">
+    <meta name="riewport" content="width=dence-width,initial-scale1.8">
     <title>Chatbot IA</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-      <header>
-        <h1>Chatbot de Danna Moreno</h1>
-      </header>
-      <div id="chat-box" class="chat-box">
-        <div></div>
+      <div class="chat-container">
+        <header>
+          <h1>Chatbot de Danna Moreno</h1>
+        </header>
+          <div id="chat-box" class="chat-box">
+            <div class="message user-message">hola</div>
+            <div class="message bot-message">hola</div>                                                              
+          </div>
+          <div class="input-area">
+            <input type="text" id="user-input" placeholder="escribe tu mensaje">
+            <button id="send-btn">enviar</button>
+          </div> 
       </div>
       <script src="script.js"></script>
   </body>
+</html>
