@@ -25,10 +25,11 @@ body{
     flex-direction: column;
     overflow: hidden;   
 }
-header{
+header
+{
     background: rgba (0,0,0,0.1);
-color: #fff;
-text-align: center;
- text-shadow: 0 0 5px rgba (0,0,0,0.5);
-padding: 15px ;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px rgba (0,0,0,0.5);
+    padding: 15px ;
 }
